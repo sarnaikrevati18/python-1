@@ -1,0 +1,197 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sarnaikrevati18/python-1/blob/main/jupyter.6ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create a list\n",
+        "numbers = [10, 20, 30, 40, 50]\n",
+        "\n",
+        "# Check membership\n",
+        "print(20 in numbers)      # True\n",
+        "print(60 not in numbers)  # True"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wg8uQ1W9FoQH",
+        "outputId": "c8a600e6-1af2-4abc-9cbe-0a327c95dec5"
+      },
+      "id": "wg8uQ1W9FoQH",
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create a list\n",
+        "nums = [1, 2, 3, 4]\n",
+        "\n",
+        "# Update\n",
+        "nums[1] = 20\n",
+        "print(nums)\n",
+        "\n",
+        "# Append\n",
+        "nums.append(5)\n",
+        "print(nums)\n",
+        "\n",
+        "# Insert\n",
+        "nums.insert(2, 15)\n",
+        "print(nums)\n",
+        "\n",
+        "# Delete\n",
+        "nums.remove(3)\n",
+        "print(nums)\n",
+        "\n",
+        "del nums[0]\n",
+        "print(nums)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "D7L9MDMjFtma",
+        "outputId": "68b42865-c1e8-4b1b-d72a-2986380be899"
+      },
+      "id": "D7L9MDMjFtma",
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 20, 3, 4]\n",
+            "[1, 20, 3, 4, 5]\n",
+            "[1, 20, 15, 3, 4, 5]\n",
+            "[1, 20, 15, 4, 5]\n",
+            "[20, 15, 4, 5]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create a list\n",
+        "fruits = [\"apple\", \"banana\", \"mango\", \"grape\", \"orange\"]\n",
+        "\n",
+        "# Indexing\n",
+        "print(fruits[0])\n",
+        "print(fruits[2])\n",
+        "\n",
+        "# Negative indexing\n",
+        "print(fruits[-1])\n",
+        "print(fruits[-3])\n",
+        "\n",
+        "# Slicing\n",
+        "print(fruits[1:4])\n",
+        "print(fruits[:3])\n",
+        "print(fruits[2:])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NILGaPLBGLkt",
+        "outputId": "abf7342b-b817-49e7-d65e-6f1a26b29e8b"
+      },
+      "id": "NILGaPLBGLkt",
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "apple\n",
+            "mango\n",
+            "orange\n",
+            "mango\n",
+            "['banana', 'mango', 'grape']\n",
+            "['apple', 'banana', 'mango']\n",
+            "['mango', 'grape', 'orange']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Create lists\n",
+        "list1 = [1, 2, 3]\n",
+        "list2 = [4, 5]\n",
+        "\n",
+        "# Concatenation\n",
+        "print(list1 + list2)\n",
+        "\n",
+        "# Repetition\n",
+        "print(list1 * 2)\n",
+        "\n",
+        "# Length\n",
+        "print(len(list1))\n",
+        "\n",
+        "# Maximum\n",
+        "print(max(list1))\n",
+        "\n",
+        "# Minimum\n",
+        "print(min(list1))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q-CMEE7EFwV3",
+        "outputId": "e4fde707-8a42-482d-f45b-78c26e4f8bd1"
+      },
+      "id": "Q-CMEE7EFwV3",
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4, 5]\n",
+            "[1, 2, 3, 1, 2, 3]\n",
+            "3\n",
+            "3\n",
+            "1\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "required_libs": [],
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
